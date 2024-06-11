@@ -7,7 +7,7 @@ class Present {
         image.src = 'images/gift-icon.png';
         this.containerElement.append(image);
         image.addEventListener('click', this._openPresent);
-
+        // Koushik's Assignment
         this.image = image;
         this.imagePath;
 
@@ -54,3 +54,4 @@ present4.setImagePath('images/pocky.png')
 
 present5 = new Present(container)
 present5.setImagePath('images/tv.png')
+// Koushik's Assignment
