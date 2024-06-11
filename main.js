@@ -30,10 +30,10 @@ class Present {
 }
 
 const changeHeading = () => {
-    document.getElementById('title').innerHTML = `Itemsfound: ${itemsFound}`
+    document.getElementById('title').innerHTML = `Items found: ${itemsFound}`
     if (present1.clicked && present2.clicked && present3.clicked 
             && present4.clicked && present5.clicked) {
-        document.getElementById('title').innerHTML = `Enjoy your presents! Itemsfound: ${itemsFound}`
+        document.getElementById('title').innerHTML = `Enjoy your presents! Items found: ${itemsFound}`
     }
 }
 
